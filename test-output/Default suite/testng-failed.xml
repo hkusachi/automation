@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="PageObject.NDM_TestCase6728Views"/>
+      <class name="Pages.NDM_Core"/>
+      <class name="PageObject.NDM_TestCase2588DeviceRestart"/>
+      <class name="PageObject.NDM_TestCase3384FirmwareUpgrade"/>
+      <class name="Pages.NDM_AddressBook"/>
+      <class name="PageObject.NDM_TestCase6601OptionalFunction"/>
+      <class name="PageObject.NDM_Login"/>
+      <class name="PageObject.NDM_BaseSeleniumTest"/>
+      <class name="Pages.NDM_GroupsPage"/>
+      <class name="PageObject.NDM_TestSuite"/>
+      <class name="Pages.NDM_OptionalFunctionPage"/>
+      <class name="Pages.NDM_TasksPage"/>
+      <class name="Pages.PrintScrean"/>
+      <class name="Pages.NDM_Page"/>
+      <class name="Pages.NDM_PrintScrean"/>
+      <class name="PageObject.NDM_TestCase4429HyPAS"/>
+      <class name="PageObject.NDM_TestCase947Discovery"/>
+      <class name="Pages.NDM_UserLoginPage"/>
+      <class name="Pages.NDM_CertPage"/>
+      <class name="PageObject.NDM_TestCase2616DeviceRestart"/>
+      <class name="PageObject.NDM_TestCase2617DeviceRestart"/>
+      <class name="PageObject.NDM_TestCase6602CertManagement"/>
+      <class name="PageObject.NDM_TestCaseAddressBookAddContact"/>
+      <class name="Pages.NDM_HomePage"/>
+      <class name="Pages.Core"/>
+      <class name="PageObject.NDM_TestCase954Discovery"/>
+      <class name="Pages.NDM_DevicePropertiesPage"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->

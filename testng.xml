@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="PageObject.NDM_TestSuite"/>
+      <class name="PageObject.NDM_Login"/>
+      <class name="PageObject.NDM_TestCase6601OptionalFunction"/>
+      <class name="PageObject.NDM_TestCase947Discovery"/>
+      <class name="PageObject.NDM_TestCaseAddressBookAddContact"/>
+      <class name="PageObject.NDM_TestCase6602CertManagement"/>
+      <class name="PageObject.NDM_TestCase6728Views"/>
+      <class name="PageObject.NDM_TestCase3384FirmwareUpgrade"/>
+      <class name="PageObject.NDM_TestCase2588DeviceRestart"/>
+      <class name="PageObject.NDM_TestCase954Discovery"/>
+      <class name="PageObject.NDM_TestCase2617DeviceRestart"/>
+      <class name="PageObject.NDM_TestCase2616DeviceRestart"/>
+      <class name="PageObject.NDM_TestCase4429HyPAS"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

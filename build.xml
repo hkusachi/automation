@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="NDM3">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="NDM3.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="lib/AutoItX4Java.jar"/>
+        <pathelement location="lib/bsh-2.0b4.jar"/>
+        <pathelement location="lib/bson-3.3.0.jar"/>
+        <pathelement location="lib/commons-codec-1.9.jar"/>
+        <pathelement location="lib/commons-lang-2.3.jar"/>
+        <pathelement location="lib/commons-logging-1.2.jar"/>
+        <pathelement location="lib/extentreports-3.0.6.jar"/>
+        <pathelement location="lib/extentreports-java-1.4.jar"/>
+        <pathelement location="lib/freemarker-2.3.23.jar"/>
+        <pathelement location="lib/httpclient-4.5.2.jar"/>
+        <pathelement location="lib/httpcore-4.4.4.jar"/>
+        <pathelement location="lib/httpmime-4.5.2.jar"/>
+        <pathelement location="lib/jacob.jar"/>
+        <pathelement location="lib/java-json.jar"/>
+        <pathelement location="lib/java-mail-1.4.4.jar"/>
+        <pathelement location="lib/jcommander-1.48.jar"/>
+        <pathelement location="lib/json-simple-1.1.1.jar"/>
+        <pathelement location="lib/jsoup-1.9.2.jar"/>
+        <pathelement location="lib/junit-4.10.jar"/>
+        <pathelement location="lib/mongodb-driver-3.3.0.jar"/>
+        <pathelement location="lib/mongodb-driver-core-3.3.0.jar"/>
+        <pathelement location="lib/mongo-java-driver-2.10.1.jar"/>
+        <pathelement location="lib/opencsv-2.4.jar"/>
+        <pathelement location="lib/selenium-java-2.39.0.jar"/>
+        <pathelement location="lib/selenium-server-standalone-3.4.0.jar"/>
+        <pathelement location="lib/testng-6.9.10.jar"/>
+        <pathelement location="lib/ini4j-0.5.4.jar"/>
+        <pathelement location="lib/ini4j-0.5.4-jdk14.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.xtend"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="NDM3.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="NDM_TestCase6602CertManagement (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="PageObject.NDM_TestCase6602CertManagement" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="NDM3.classpath"/>
+        </junit>
+    </target>
+    <target name="NDM_TestSuite (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="PageObject.NDM_TestSuite" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="NDM3.classpath"/>
+        </junit>
+    </target>
+    <target name="TestCase6887InitialLogin">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="PageObject.NDM_TestCaseAddressBookAddContact" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="NDM3.classpath"/>
+        </junit>
+    </target>
+    <target name="New_configuration (3)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="PageObject.NDM_Login" todir="${junit.output.dir}"/>
+            <test name="PageObject.NDM_TestCase2588DeviceRestart" todir="${junit.output.dir}"/>
+            <test name="PageObject.NDM_TestCase2616DeviceRestart" todir="${junit.output.dir}"/>
+            <test name="PageObject.NDM_TestCase2617DeviceRestart" todir="${junit.output.dir}"/>
+            <test name="PageObject.NDM_TestCase3384FirmwareUpgrade" todir="${junit.output.dir}"/>
+            <test name="PageObject.NDM_TestCase4429HyPAS" todir="${junit.output.dir}"/>
+            <test name="PageObject.NDM_TestCase6601OptionalFunction" todir="${junit.output.dir}"/>
+            <test name="PageObject.NDM_TestCase6602CertManagement" todir="${junit.output.dir}"/>
+            <test name="PageObject.NDM_TestCase6728Views" todir="${junit.output.dir}"/>
+            <test name="PageObject.NDM_TestCase947Discovery" todir="${junit.output.dir}"/>
+            <test name="PageObject.NDM_TestCase954Discovery" todir="${junit.output.dir}"/>
+            <test name="PageObject.NDM_TestCaseAddressBookAddContact" todir="${junit.output.dir}"/>
+            <test name="PageObject.NDM_TestSuite" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="NDM3.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

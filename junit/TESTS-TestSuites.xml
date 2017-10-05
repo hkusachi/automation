@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="10" failures="0" hostname="HKus-X-5430" id="0" name="NDM_TestSuite" package="PageObject" skipped="0" tests="11" time="303.29" timestamp="2017-10-03T01:58:21">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.MOZ_PLUGIN_PATH" value="C:\Program Files (x86)\Nuance\PDF Professional 7\Bin\" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="KTD-KYOCERA.COM" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/C:/eclipse2/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes" />
+
+          <property name="env.COMPUTERNAME" value="HKUS-X-5430" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\eclipse2\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="env.HOMEPATH" value="\" />
+
+          <property name="env.HOMESHARE" value="\\ktd.com\shares\all\home\hiromi" />
+
+          <property name="user.name" value="hiromi" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.project.name" value="NDM3" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.TEMP" value="C:\Users\hiromi\AppData\Local\Temp" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="ant.file.NDM3" value="C:\eclipse2\Workspace\NDM3\build.xml" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="env.HOMEDRIVE" value="H:" />
+
+          <property name="sun.jnu.encoding" value="MS932" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="ant.file.type.NDM3" value="file" />
+
+          <property name="ECLIPSE_HOME" value="../../" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="env.TFSPowerToolDir" value="C:\Program Files (x86)\Microsoft Team Foundation Server 2015 Power Tools\" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="env.GRADLE_HOME" value="C:\gradle-3.1-all\gradle-3.1\bin" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre" />
+
+          <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files\WindowsPowerShell\Modules\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\Storage\" />
+
+          <property name="env.APPDATA" value="C:\Users\hiromi\AppData\Roaming" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="C:\eclipse2\Workspace\NDM3\build.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.USERPROFILE" value="C:\Users\hiromi" />
+
+          <property name="ant.library.dir" value="C:\eclipse2\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files (x86)\Java\jdk1.8.0_101" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\Users\hiromi\AppData\Local\Temp" />
+
+          <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/C:/eclipse2/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/scripts/" />
+
+          <property name="user.home" value="C:\Users\hiromi" />
+
+          <property name="target" value="1.8" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Perforce;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\Microsoft Team Foundation Server 2015 Power Tools\;C:\Ruby21\bin;C:\Program Files (x86)\Skype\Phone\;C:\ant\bin;C:\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Ruby21\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Perforce;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\Microsoft Team Foundation Server 2015 Power Tools\;C:\Ruby21\bin;C:\Program Files (x86)\Skype\Phone\;C:\ant\bin;C:\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_101\bin;C:\ant\bin;C:\eclipse2;;." />
+
+          <property name="env.USERDNSDOMAIN" value="KTD.COM" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="java.class.path" value="C:\eclipse2\Workspace\NDM3\bin;C:\eclipse2\Workspace\NDM3\lib\AutoItX4Java.jar;C:\eclipse2\Workspace\NDM3\lib\bsh-2.0b4.jar;C:\eclipse2\Workspace\NDM3\lib\bson-3.3.0.jar;C:\eclipse2\Workspace\NDM3\lib\commons-codec-1.9.jar;C:\eclipse2\Workspace\NDM3\lib\commons-lang-2.3.jar;C:\eclipse2\Workspace\NDM3\lib\commons-logging-1.2.jar;C:\eclipse2\Workspace\NDM3\lib\extentreports-3.0.6.jar;C:\eclipse2\Workspace\NDM3\lib\extentreports-java-1.4.jar;C:\eclipse2\Workspace\NDM3\lib\freemarker-2.3.23.jar;C:\eclipse2\Workspace\NDM3\lib\httpclient-4.5.2.jar;C:\eclipse2\Workspace\NDM3\lib\httpcore-4.4.4.jar;C:\eclipse2\Workspace\NDM3\lib\httpmime-4.5.2.jar;C:\eclipse2\Workspace\NDM3\lib\jacob.jar;C:\eclipse2\Workspace\NDM3\lib\java-json.jar;C:\eclipse2\Workspace\NDM3\lib\java-mail-1.4.4.jar;C:\eclipse2\Workspace\NDM3\lib\jcommander-1.48.jar;C:\eclipse2\Workspace\NDM3\lib\json-simple-1.1.1.jar;C:\eclipse2\Workspace\NDM3\lib\jsoup-1.9.2.jar;C:\eclipse2\Workspace\NDM3\lib\junit-4.10.jar;C:\eclipse2\Workspace\NDM3\lib\mongodb-driver-3.3.0.jar;C:\eclipse2\Workspace\NDM3\lib\mongodb-driver-core-3.3.0.jar;C:\eclipse2\Workspace\NDM3\lib\mongo-java-driver-2.10.1.jar;C:\eclipse2\Workspace\NDM3\lib\opencsv-2.4.jar;C:\eclipse2\Workspace\NDM3\lib\selenium-java-2.39.0.jar;C:\eclipse2\Workspace\NDM3\lib\selenium-server-standalone-3.4.0.jar;C:\eclipse2\Workspace\NDM3\lib\testng-6.9.10.jar;C:\eclipse2\Workspace\NDM3\lib\ini4j-0.5.4.jar;C:\eclipse2\Workspace\NDM3\lib\ini4j-0.5.4-jdk14.jar;C:\eclipse2\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\eclipse2\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\eclipse2\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\eclipse2\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner PageObject.NDM_TestSuite skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\eclipse2\Workspace\NDM3\junit\TEST-PageObject.NDM_TestSuite.xml crashfile=C:\eclipse2\Workspace\NDM3\junitvmwatcher2141135718788942492.properties propsfile=C:\eclipse2\Workspace\NDM3\junit9188032647817231389.properties" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="env.LOGONSERVER" value="\\HOMER" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.OneDrive" value="C:\Users\hiromi\OneDrive" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="env.ANT_HOME" value="C:\eclipse2\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="env.PROCESSOR_REVISION" value="3a09" />
+
+          <property name="eclipse.pdebuild.home" value="/C:/eclipse2/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\hiromi\AppData\Local\Temp\" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="env.VS120COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\hiromi\AppData\Local" />
+
+          <property name="user.dir" value="C:\eclipse2\Workspace\NDM3" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW;.EXE" />
+
+          <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\hiromi\AppData\Local\Temp\null619430686" />
+
+          <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Perforce;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\Microsoft Team Foundation Server 2015 Power Tools\;C:\Ruby21\bin;C:\Program Files (x86)\Skype\Phone\;C:\ant\bin;C:\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Ruby21\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Perforce;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\Microsoft Team Foundation Server 2015 Power Tools\;C:\Ruby21\bin;C:\Program Files (x86)\Skype\Phone\;C:\ant\bin;C:\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_101\bin;C:\ant\bin;C:\eclipse2;" />
+
+          <property name="basedir" value="C:\eclipse2\Workspace\NDM3" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\eclipse2\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="hiromi" />
+
+          <property name="source" value="1.8" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="MS932" />
+
+          <property name="env.USERDOMAIN" value="KTD-KYOCERA.COM" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="build,junitreport,NDM_TestSuite (1)" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+      </properties>
+
+      <testcase classname="PageObject.NDM_TestCase947Discovery" name="testPage" time="69.744" />
+
+      <testcase classname="PageObject.NDM_TestCase6601OptionalFunction" name="testPage" time="231.603">
+          <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:341)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:408)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:295)
+	at Pages.NDM_OptionalFunctionPage.SelectFunction(NDM_OptionalFunctionPage.java:46)
+	at PageObject.NDM_TestCase6601OptionalFunction.testPage(NDM_TestCase6601OptionalFunction.java:89)
+</error>
+
+      </testcase>
+
+      <testcase classname="PageObject.NDM_TestCase3384FirmwareUpgrade" name="testPage" time="0.527">
+          <error message="no such window: target window already closed&#xa;from unknown error: web view not found&#xa;  (Session info: chrome=61.0.3163.100)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 3 milliseconds&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;&#xa;System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 9c770cc730d3f33176d406d44403fe51" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9c770cc730d3f33176d406d44403fe51
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at PageObject.NDM_TestCase3384FirmwareUpgrade.testPage(NDM_TestCase3384FirmwareUpgrade.java:63)
+</error>
+
+      </testcase>
+
+      <testcase classname="PageObject.NDM_TestCase2617DeviceRestart" name="testPage" time="0.155">
+          <error message="no such window: target window already closed&#xa;from unknown error: web view not found&#xa;  (Session info: chrome=61.0.3163.100)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 13 milliseconds&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;&#xa;System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 9c770cc730d3f33176d406d44403fe51" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9c770cc730d3f33176d406d44403fe51
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at PageObject.NDM_TestCase2617DeviceRestart.testPage(NDM_TestCase2617DeviceRestart.java:62)
+</error>
+
+      </testcase>
+
+      <testcase classname="PageObject.NDM_TestCaseAddressBookAddContact" name="testPage" time="0.138">
+          <error message="no such window: target window already closed&#xa;from unknown error: web view not found&#xa;  (Session info: chrome=61.0.3163.100)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 2 milliseconds&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;&#xa;System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 9c770cc730d3f33176d406d44403fe51" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9c770cc730d3f33176d406d44403fe51
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at PageObject.NDM_TestCaseAddressBookAddContact.testPage(NDM_TestCaseAddressBookAddContact.java:61)
+</error>
+
+      </testcase>
+
+      <testcase classname="PageObject.NDM_TestCase954Discovery" name="testPage" time="0.144">
+          <error message="no such window: target window already closed&#xa;from unknown error: web view not found&#xa;  (Session info: chrome=61.0.3163.100)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 5 milliseconds&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;&#xa;System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 9c770cc730d3f33176d406d44403fe51" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9c770cc730d3f33176d406d44403fe51
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at PageObject.NDM_TestCase954Discovery.testPage(NDM_TestCase954Discovery.java:72)
+</error>
+
+      </testcase>
+
+      <testcase classname="PageObject.NDM_TestCase2616DeviceRestart" name="testPage" time="0.177">
+          <error message="no such window: target window already closed&#xa;from unknown error: web view not found&#xa;  (Session info: chrome=61.0.3163.100)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 5 milliseconds&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;&#xa;System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 9c770cc730d3f33176d406d44403fe51" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9c770cc730d3f33176d406d44403fe51
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at PageObject.NDM_TestCase2616DeviceRestart.testPage(NDM_TestCase2616DeviceRestart.java:62)
+</error>
+
+      </testcase>
+
+      <testcase classname="PageObject.NDM_TestCase6602CertManagement" name="testPage" time="0.178">
+          <error message="no such window: target window already closed&#xa;from unknown error: web view not found&#xa;  (Session info: chrome=61.0.3163.100)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 13 milliseconds&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;&#xa;System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 9c770cc730d3f33176d406d44403fe51" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9c770cc730d3f33176d406d44403fe51
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at PageObject.NDM_TestCase6602CertManagement.testPage(NDM_TestCase6602CertManagement.java:64)
+</error>
+
+      </testcase>
+
+      <testcase classname="PageObject.NDM_TestCase2588DeviceRestart" name="testPage" time="0.152">
+          <error message="no such window: target window already closed&#xa;from unknown error: web view not found&#xa;  (Session info: chrome=61.0.3163.100)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 6 milliseconds&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;&#xa;System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 9c770cc730d3f33176d406d44403fe51" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9c770cc730d3f33176d406d44403fe51
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at PageObject.NDM_TestCase2588DeviceRestart.testPage(NDM_TestCase2588DeviceRestart.java:63)
+</error>
+
+      </testcase>
+
+      <testcase classname="PageObject.NDM_TestCase4429HyPAS" name="testPage" time="0.146">
+          <error message="no such window: target window already closed&#xa;from unknown error: web view not found&#xa;  (Session info: chrome=61.0.3163.100)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 6 milliseconds&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;&#xa;System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 9c770cc730d3f33176d406d44403fe51" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9c770cc730d3f33176d406d44403fe51
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at PageObject.NDM_TestCase4429HyPAS.testPage(NDM_TestCase4429HyPAS.java:62)
+</error>
+
+      </testcase>
+
+      <testcase classname="PageObject.NDM_TestCase6728Views" name="testPage" time="0.126">
+          <error message="no such window: target window already closed&#xa;from unknown error: web view not found&#xa;  (Session info: chrome=61.0.3163.100)&#xa;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)&#xa;Command duration or timeout: 4 milliseconds&#xa;Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;&#xa;System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;&#xa;Driver info: org.openqa.selenium.chrome.ChromeDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#xa;Session ID: 9c770cc730d3f33176d406d44403fe51" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:12:12&apos;
+System info: host: &apos;HKus-X-5430&apos;, ip: &apos;10.10.18.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\hiromi\AppData\Local\Temp\scoped_dir8936_13068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 9c770cc730d3f33176d406d44403fe51
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at PageObject.NDM_TestCase6728Views.testPage(NDM_TestCase6728Views.java:68)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[Login [OK]
+Discovered device [OK]
+Filter device [OK]
+Check device [OK]
+Filter [OK]
+DevicePropertiesPage [OK]
+DeviceManagement [OK]
+OptionalFunctionPage [OK]
+]]></system-out>
+
+      <system-err><![CDATA[Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 53935
+Only local connections are allowed.
+]]></system-err>
+
+  </testsuite>
+</testsuites>
