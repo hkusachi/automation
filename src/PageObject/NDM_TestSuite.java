@@ -38,8 +38,8 @@ import com.google.common.io.Files;
 @Suite.SuiteClasses(
 {
    // NDM_TestCase947Discovery.class,
-   NDM_TestCase6601OptionalFunction.class,
-    NDM_TestCase3384FirmwareUpgrade.class,
+   //NDM_TestCase6601OptionalFunction.class,
+  //  NDM_TestCase3384FirmwareUpgrade.class,
     //NDM_TestCase2617DeviceRestart.class,
     //NDM_TestCaseAddressBookAddContact.class,
    // NDM_TestCase954Discovery.class,
